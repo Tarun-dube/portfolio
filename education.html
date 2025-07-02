@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education Details</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0a0e31;
+      color: white;
+      padding: 5rem 9%;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 4rem;
+      color: #00bfff;
+      margin-bottom: 3rem;
+      text-align: center;
+      border-bottom: 2px solid #00bfff;
+      padding-bottom: 1rem;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .education-entry {
+      background-color: #12173a;
+      border-left: 4px solid #00bfff;
+      padding: 2rem;
+      border-radius: 1rem;
+      margin-bottom: 3rem;
+      box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+      transition: 0.3s ease;
+    }
+
+    .education-entry:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
+    }
+
+    .education-entry h4 {
+      font-size: 2.4rem;
+      color: #00bfff;
+      margin-bottom: 0.8rem;
+    }
+
+    .education-entry p {
+      font-size: 1.6rem;
+      color: #ddd;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 4rem 5%;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .education-entry h4 {
+        font-size: 2rem;
+      }
+
+      .education-entry p {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Education Details</h1>
+
+  <div class="education-entry">
+    <h4>Bachelor of Technology</h4>
+    <p>Computer Science and Engineering – Technocrat Institute of Technology (2021–2025)</p>
+    <p>GPA: 8.51</p>
+  </div>
+
+  <div class="education-entry">
+    <h4>Intermediate</h4>
+    <p>PCM – DAV SR. SEC. Public School (2020–2021)</p>
+    <p>Percentage: 95%</p>
+  </div>
+
+  <div class="education-entry">
+    <h4>High School</h4>
+    <p>Science – DAV SR. SEC. Public School (2018–2019)</p>
+    <p>Percentage: 95%</p>
+  </div>
+</body>
+</html>
